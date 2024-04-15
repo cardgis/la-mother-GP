@@ -3,9 +3,9 @@ import Image from "next/image";
 import Countdown from "@/components/countdown";
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen p-24">
-      <div className="z-10 items-center justify-between w-full max-w-5xl font-mono text-sm lg:flex">
-        <p className="flex justify-start w-full gap-3 pt-8 pb-6">
+    <main className="flex flex-col items-center justify-between min-h-screen p-24 bg-slate-300">
+      <div className="z-10 items-center justify-between w-full max-w-5xl font-mono text-sm lg:flex mb-36">
+        <p className="flex justify-start w-full gap-5 pt-8 pb-6">
           <code className="font-mono text-lg font-bold rounded-lg cursor-pointer hover:bg-amber-600 hover:text-white">
             Home
           </code>
@@ -48,9 +48,12 @@ export default function Home() {
 
       {/* <span className="">Premier départ le 05 septembre 2024</span> */}
 
-      <div className="bg-orange-300">
+      <div className="bg-orange-300 mb-28">
         <Countdown />
       </div>
+      {/* <div>
+        
+      </div> */}
 
       <div className="grid mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
@@ -121,6 +124,9 @@ export default function Home() {
           </p>
         </a>
       </div>
+      {/* <div>
+        <Example />
+      </div> */}
     </main>
   );
 }
