@@ -46,7 +46,7 @@ export default function Home() {
         />
       </div> */}
 
-      <span className="">Premier départ le 05 septembre 2024</span>
+      {/* <span className="">Premier départ le 05 septembre 2024</span> */}
 
       <div className="bg-orange-300">
         <Countdown />
