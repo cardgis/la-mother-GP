@@ -7,11 +7,15 @@ export default function Home() {
       <div className="z-10 items-center justify-between w-full max-w-5xl font-mono text-sm lg:flex mb-36">
         <p className="flex justify-start w-full gap-5 pt-8 pb-6">
           <code className="font-mono text-lg font-bold rounded-lg cursor-pointer hover:bg-amber-600 hover:text-white">
-            Home
+            Accueil
           </code>
           <code className="font-mono text-lg font-bold rounded-lg cursor-pointer hover:bg-amber-600 hover:text-white">
-            About-Us{" "}
+            Activités{" "}
           </code>
+          <code className="font-mono text-lg font-bold rounded-lg cursor-pointer hover:bg-amber-600 hover:text-white">
+            Nos Offres
+          </code>
+
           <code className="font-mono text-lg font-bold rounded-lg cursor-pointer hover:bg-amber-600 hover:text-white">
             Contact
           </code>

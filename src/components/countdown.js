@@ -41,7 +41,7 @@ function Countdown() {
     <div>
       <>
         <div>
-          <div className="flex gap-4 ">
+          <div className="flex gap-4 outline">
             <div>
               <span className="time">{days}</span>
               <span className="label">Days</span>
