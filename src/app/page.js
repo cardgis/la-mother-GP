@@ -6,17 +6,17 @@ export default function Home() {
     <main className="flex flex-col items-center justify-between min-h-screen p-24 bg-slate-300">
       <div className="z-10 items-center justify-between w-full max-w-5xl font-mono text-sm lg:flex mb-36">
         <p className="flex justify-start w-full gap-5 pt-8 pb-6">
-          <code className="font-mono text-lg font-bold rounded-lg cursor-pointer hover:bg-amber-600 hover:text-white">
+          <code className="font-mono text-lg font-bold text-gray-900 rounded-lg cursor-pointer  hover:bg-cyan-950 hover:text-white">
             Accueil
           </code>
-          <code className="font-mono text-lg font-bold rounded-lg cursor-pointer hover:bg-amber-600 hover:text-white">
+          <code className="font-mono text-lg font-bold text-gray-900 rounded-lg cursor-pointer  hover:bg-cyan-950 hover:text-white">
             Activités{" "}
           </code>
-          <code className="font-mono text-lg font-bold rounded-lg cursor-pointer hover:bg-amber-600 hover:text-white">
+          <code className="font-mono text-lg font-bold text-gray-900 rounded-lg cursor-pointer  hover:bg-cyan-950 hover:text-white">
             Nos Offres
           </code>
 
-          <code className="font-mono text-lg font-bold rounded-lg cursor-pointer hover:bg-amber-600 hover:text-white">
+          <code className="font-mono text-lg font-bold text-gray-900 rounded-lg cursor-pointer  hover:bg-cyan-950 hover:text-white">
             Contact
           </code>
         </p>
