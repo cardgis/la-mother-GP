@@ -40,6 +40,9 @@ function Countdown() {
   return (
     <div>
       <>
+        <h2 className="flex justify-center mb-4 ">
+          Premier depart : <span>05 septembre 2024</span>
+        </h2>
         <div>
           <div className="flex gap-4 outline">
             <div>
